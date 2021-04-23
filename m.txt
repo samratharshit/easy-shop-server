@@ -1,0 +1,7 @@
+libraries used:
+express
+dotenv
+body-parser
+morgan
+nodemon
+mongoose
