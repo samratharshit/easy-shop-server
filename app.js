@@ -39,7 +39,7 @@ mongoose.connect(process.env.CONNECTION_STRING, {
     dbName: 'raktbeez-database'
 })
 .then(()=>{
-    console.log('Database Connection is ready...')
+   // console.log('Database Connection is ready...')
 })
 .catch((err)=> {
     console.log(err);
@@ -54,6 +54,6 @@ mongoose.connect(process.env.CONNECTION_STRING, {
 //Production
 var server= app.listen(process.env.PORT || 3000, function (){
     var port = server.address().port;
-    console.log('Server is running at Port:' + 3000)
+    //console.log('Server is running at Port:' + 3000)
 
 })
